@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(252, 255, 237);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: rgb(80, 11, 11);
+}
+
+a:hover {
+    color: rgb(241, 144, 65);
+}
+
+.navbar {
+    background-image: url(imgs/cafeteria.png);
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navitems {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.info-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.itens {
+    margin: 8px;
+}
+
+
+footer {
+    background-color: rgb(245, 228, 153);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
